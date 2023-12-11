@@ -1,0 +1,35 @@
+.movie-card {
+    background-color:white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.movie-card-image img {
+    width: 100px;
+    height: 150px;
+    border-radius: 5px;
+    margin: 10px 20px 0px;
+}
+.button {
+    font-size: 0.7rem;
+    background-color:  rgb(151, 3, 3);
+    height: 30px;
+    color: white;
+    border: 1px solid transparent;
+}
+.button:hover{
+    opacity:0.7;
+    font-size: 0.75rem;
+   cursor:pointer
+}
+.movie-text{
+    color: black;
+}
+@media screen and (max-width:830px) {
+    .movie-card{
+        width: 220px;
+    }
+}

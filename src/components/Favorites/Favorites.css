@@ -1,0 +1,70 @@
+.list {
+    width: 30%;
+    background-color: white;
+    margin: 10px 90px 0px 20px;
+    border-radius: 5px;
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: auto;
+}
+
+.card-in-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+   
+}
+.submit{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(179, 3, 3)
+}
+
+.list-name-bar input{
+    margin-bottom: 40px;
+}
+
+.list-button {
+    color: white;
+    background-color: rgb(179, 3, 3);
+    font-size: 1rem;
+    display: block;
+    padding-left: 10;
+    width:200px;
+    height: 30px;
+}
+
+.remove-button {
+    cursor: pointer;
+    font-size: 0.7rem;
+    background-color: rgb(179, 3, 3);
+    color: white;
+    border: 1px solid transparent;
+    height: 25px;
+    margin-top: 7px;
+    padding: 0rem 1.3rem;
+    border-radius: 0.25rem;
+}
+.card-text{
+    justify-content: space-between;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+.card-title {
+    text-align: left;
+    font-size: 0.6rem;
+    color: black;
+}
+
+@media only screen and (min-width: 375px) and (max-width:830px) {
+.list{
+    position: absolute;
+left: 240px;
+top:220px;
+
+    width: 200px;
+}
+}
